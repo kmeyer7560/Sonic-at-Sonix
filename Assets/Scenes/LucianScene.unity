@@ -892,7 +892,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f70543aebbf420e8d4b5d5e4c751b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orderText: {fileID: 1460737955}
+  orderTextOne: {fileID: 1460737955}
+  orderTextTwo: {fileID: 14746301}
+  orderTextThree: {fileID: 1312696605}
+  orderTextFour: {fileID: 1742707770}
+  orderTextFive: {fileID: 1735789095}
+  orderTextSix: {fileID: 311137110}
+  orderTextSeven: {fileID: 342443}
+  orderTextEight: {fileID: 959919042}
+  orderTextNine: {fileID: 1507171237}
+  orderTextTen: {fileID: 1701768781}
   RadNum: 0
   time: 0
 --- !u!1 &959919040
