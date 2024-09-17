@@ -12,13 +12,15 @@ public class Collisions : MonoBehaviour
     [SerializeField]
     List<string> inventory; //makes the inventory
     [SerializeField]
-    private GameObject ListList;
+    public GameObject ListList;
 
-    private List<string> orderList;
+    public List<string> orderList = new List<string>();
 
-    private GameObject orders;
+    public GameObject orders;
 
-    private GameObject wrong;
+    public GameObject wrong;
+
+    public GameObject points;
 
     private int orderNum;
 
@@ -98,7 +100,6 @@ public class Collisions : MonoBehaviour
         if (other.gameObject.tag == "outWindow")
         {
             checkInv();
-            clearInventory();
         }
         
         
@@ -122,14 +123,15 @@ public class Collisions : MonoBehaviour
     {
         orderNum = 0;
         orderList.Clear();
-        if (orders.GetComponent<OrderScript>().RadNum == 1)
+        if (orders.GetComponent<OrderScript>().isFullOne == 1)
         {
             orderList.Add("hotdog");
             orderList.Add("slushee");
             orderNum = 1;
+
         }
 
-        else if (orders.GetComponent<OrderScript>().RadNum == 2)
+        else if (orders.GetComponent<OrderScript>().isFullOne == 2)
         {
             orderList.Add("cookbread");
             orderList.Add("cookdog");
@@ -138,13 +140,13 @@ public class Collisions : MonoBehaviour
             orderNum = 2;
         }
 
-        else if (orders.GetComponent<OrderScript>().RadNum == 3)
+        else if (orders.GetComponent<OrderScript>().isFullOne == 3)
         {
             orderList.Add("slushee");
             orderNum = 3;
         }
         
-        else if (orders.GetComponent<OrderScript>().RadNum == 4)
+        else if (orders.GetComponent<OrderScript>().isFullOne == 4)
         {
             orderList.Add("cookbread");
             orderList.Add("cookdog");
@@ -164,52 +166,62 @@ public class Collisions : MonoBehaviour
         {
             if (inventory.Contains("hotdog") && inventory.Contains("slushee") && !inventory.Contains("cookbread") && !inventory.Contains("cookchili") && !inventory.Contains("condements") && !inventory.Contains("bread") && !inventory.Contains("chili") && !inventory.Contains("cookdog"))
             {
-                orders.GetComponent<Points>().completeOrder();
+                points.GetComponent<Points>().completeOrder();
+                clearInventory();
+                orders.GetComponent<OrderScript>().GenOne();
             }
         }
         
-        else if (orderNum == 2)
+        if (orderNum == 2)
         {
-            if (inventory.Contains("Cookdog") && inventory.Contains("cookbread") && inventory.Contains("cookchili") &&
+            if (inventory.Contains("cookdog") && inventory.Contains("cookbread") && inventory.Contains("cookchili") &&
                 inventory.Contains("condements") && !inventory.Contains("bread") && !inventory.Contains("chili") &&
                 !inventory.Contains("hotdog") && !inventory.Contains("slushee"))
             {
-                orders.GetComponent<Points>().completeOrder();
+                points.GetComponent<Points>().completeOrder();
+                clearInventory();
+                orders.GetComponent<OrderScript>().GenOne();
             }
         }
         
-        else if (orderNum == 3)
+        if (orderNum == 3)
         {
-            if (inventory.Contains("slushee") && !inventory.Contains("cookdog") && !inventory.Contains("hotdog") &&
-                !inventory.Contains("bread") && !inventory.Contains("cookbread") && !inventory.Contains("chili") &&
-                !inventory.Contains("cookchili") && !inventory.Contains("condements"))
+            if (inventory.Contains("slushee"))
             {
-                orders.GetComponent<Points>().completeOrder();
+                points.GetComponent<Points>().completeOrder();
+                clearInventory();
+                orders.GetComponent<OrderScript>().GenOne();
             }
         }
         
-        else if (orderNum == 4)
+        if (orderNum == 4)
         {
             if (inventory.Contains("cookbread") && inventory.Contains("cookdog") && inventory.Contains("cookchili") &&
                 !inventory.Contains("condements") && !inventory.Contains("bread") && !inventory.Contains("hotdog") &&
                 !inventory.Contains("chili") && !inventory.Contains("slushee"))
             {
-                orders.GetComponent<Points>().completeOrder();
+                points.GetComponent<Points>().completeOrder();
+                clearInventory();
+                orders.GetComponent<OrderScript>().GenOne();
             }
         }
         
-        else if (inventory.Contains("hotdog") && inventory.Contains("condements") && !inventory.Contains("cookdog") &&
+        if (inventory.Contains("hotdog") && inventory.Contains("condements") && !inventory.Contains("cookdog") &&
                  !inventory.Contains("cookbread") && !inventory.Contains("bread") && !inventory.Contains("slushee") &&
                  !inventory.Contains("chili") && !inventory.Contains("cookchili"))
         {
-            orders.GetComponent<Points>().completeOrder();
+            points.GetComponent<Points>().completeOrder();
+            clearInventory();
+            orders.GetComponent<OrderScript>().GenOne();
         }
 
         else
         {
             wrong.GetComponent<WRONG>().show();
+            clearInventory();
+            orders.GetComponent<OrderScript>().GenOne();
         }
-        
+        clearInventory();
     }
 
     public void clearInventory() //just to clear the inventory when the order is finished.
@@ -241,6 +253,7 @@ public class Collisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(orderNum);
     }
     
     

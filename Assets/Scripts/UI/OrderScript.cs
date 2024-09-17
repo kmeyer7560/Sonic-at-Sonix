@@ -18,16 +18,16 @@ public class OrderScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI orderTextEight;
     [SerializeField] TextMeshProUGUI orderTextNine;
     [SerializeField] TextMeshProUGUI orderTextTen;
-    public static int isFullOne = 0;
-    public static int isFullTwo = 0;
-    public static int isFullThree = 0;
-    public static int isFullFour = 0;
-    public static int isFullFive = 0;
-    public static int isFullSix = 0;
-    public static int isFullSeven = 0;
-    public static int isFullEight = 0;
-    public static int isFullNine = 0;
-    public static int isFullTen = 0;
+    public  int isFullOne = 0;
+    public  int isFullTwo = 0;
+    public  int isFullThree = 0;
+    public  int isFullFour = 0;
+    public  int isFullFive = 0;
+    public  int isFullSix = 0;
+    public  int isFullSeven = 0;
+    public  int isFullEight = 0;
+    public  int isFullNine = 0;
+    public  int isFullTen = 0;
     //random
     public float RadNum = 0f;
     public float time;
