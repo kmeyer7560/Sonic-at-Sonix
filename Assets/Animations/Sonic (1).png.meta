@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c85f77849877b4482b592bd2d960e521
+guid: a30ccdca1a5f741af9cc829b97f103a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,133 +110,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_0
+      name: Sonic (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6148538ad435a46b7ae8747195b724eb
-      internalID: -1518149495
+      spriteID: e5cd59f0ed89545408ab5a4076d7a6fe
+      internalID: -1898621889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_1
+      name: Sonic (1)_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c73270c822d44ec9aa93bb2404ea19
-      internalID: 720134473
+      spriteID: 193a6e61664884a30a1b49a7fff39ffc
+      internalID: 1946822572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_2
+      name: Sonic (1)_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06791fdba95ad4ada929827c80008e17
-      internalID: 131300736
+      spriteID: 0b2b2457cd58642e5a294afeec25cb9f
+      internalID: -67978101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f28640220af042cfb2c9d7243bbff63
-      internalID: -1152597208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Diner Sprites cans and dogs_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfb9da796c0514c668f9b4d5cef41eeb
-      internalID: 111423019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Diner Sprites cans and dogs_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07bcb55e4c1d84533ae3cd18a65a0b61
-      internalID: 1946152305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Diner Sprites cans and dogs_6
+      name: Sonic (1)_3
       rect:
         serializedVersion: 2
         x: 0
@@ -244,20 +181,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa5aa4699ce4340ff80f3acdf68327b5
-      internalID: 399066790
+      spriteID: 6943a65f931e846a5a6601354fc311a6
+      internalID: -270555598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_7
+      name: Sonic (1)_4
       rect:
         serializedVersion: 2
         x: 16
@@ -265,20 +202,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed3042ea374644baa66d84a12c3dbb1
-      internalID: -951682953
+      spriteID: f8ec3f7ab92564c11bd19c71da4c2ebe
+      internalID: 1837718296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_8
+      name: Sonic (1)_5
       rect:
         serializedVersion: 2
         x: 32
@@ -286,20 +223,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c58b33cd5d9145949211579558309ba
-      internalID: -35422122
+      spriteID: 349c044a7fa684ad2a16d34c5c521ce2
+      internalID: 415899151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_9
+      name: Sonic (1)_6
       rect:
         serializedVersion: 2
         x: 0
@@ -307,20 +244,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2183d379d38a7407fba9b98dd6f20884
-      internalID: 1856498089
+      spriteID: 2312c43f1735a452892d8eeb9b1102c8
+      internalID: -1107739838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_10
+      name: Sonic (1)_7
       rect:
         serializedVersion: 2
         x: 16
@@ -328,20 +265,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a888d511bdc2549f680021d6b40f5586
-      internalID: -1460173076
+      spriteID: 18c189f788d084f2eb213cd91ad106ae
+      internalID: -143481390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_11
+      name: Sonic (1)_8
       rect:
         serializedVersion: 2
         x: 32
@@ -349,20 +286,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1603e9c16ebf34e99a6e3330a412e94e
-      internalID: -1089324636
+      spriteID: 31fb76a130bc847c2aa4150f71c31f00
+      internalID: 2117392537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_12
+      name: Sonic (1)_9
       rect:
         serializedVersion: 2
         x: 0
@@ -370,20 +307,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56f2a1be35d4f41b19a4192bbffb27b9
-      internalID: -1870848668
+      spriteID: 2a6df3459c9244e57b01c441914c41cb
+      internalID: 115419385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_13
+      name: Sonic (1)_10
       rect:
         serializedVersion: 2
         x: 16
@@ -391,20 +328,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30625cb54709c4809863c2d4be1f15fa
-      internalID: -353353651
+      spriteID: 90a54ffd4a250434d865ffb16823239f
+      internalID: -1306346922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diner Sprites cans and dogs_14
+      name: Sonic (1)_11
       rect:
         serializedVersion: 2
         x: 32
@@ -412,14 +349,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6ee49618be84bafb5a7e912d5de405
-      internalID: -1130668833
+      spriteID: 489a089d63b584ee292ca543e4674281
+      internalID: 760170278
       vertices: []
       indices: 
       edges: []
@@ -435,21 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Diner Sprites cans and dogs_0: -1518149495
-      Diner Sprites cans and dogs_1: 720134473
-      Diner Sprites cans and dogs_10: -1460173076
-      Diner Sprites cans and dogs_11: -1089324636
-      Diner Sprites cans and dogs_12: -1870848668
-      Diner Sprites cans and dogs_13: -353353651
-      Diner Sprites cans and dogs_14: -1130668833
-      Diner Sprites cans and dogs_2: 131300736
-      Diner Sprites cans and dogs_3: -1152597208
-      Diner Sprites cans and dogs_4: 111423019
-      Diner Sprites cans and dogs_5: 1946152305
-      Diner Sprites cans and dogs_6: 399066790
-      Diner Sprites cans and dogs_7: -951682953
-      Diner Sprites cans and dogs_8: -35422122
-      Diner Sprites cans and dogs_9: 1856498089
+      Sonic (1)_0: -1898621889
+      Sonic (1)_1: 1946822572
+      Sonic (1)_10: -1306346922
+      Sonic (1)_11: 760170278
+      Sonic (1)_2: -67978101
+      Sonic (1)_3: -270555598
+      Sonic (1)_4: 1837718296
+      Sonic (1)_5: 415899151
+      Sonic (1)_6: -1107739838
+      Sonic (1)_7: -143481390
+      Sonic (1)_8: 2117392537
+      Sonic (1)_9: 115419385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
